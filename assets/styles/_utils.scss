@@ -1,0 +1,45 @@
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.gap-10px {
+    gap: 10px;
+}
+
+.margin-10px{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.thin {
+    font-weight: 400;
+}
+
+.styless {
+    color: inherit;
+    text-decoration: none;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.link {
+    color: purple;
+    transition: color 0.3s ease;
+
+    &:hover{
+        color: rgb(105, 3, 105);
+    }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: -100%;
+  }
+}

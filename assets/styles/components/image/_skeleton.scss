@@ -1,0 +1,9 @@
+@use '../../mixins';
+
+.image-skeleton {
+    height: 300px;
+    width: 600px;
+    @include mixins.grad;
+    animation: shimmer 1.5s infinite linear;
+    border-radius: 14px;
+}

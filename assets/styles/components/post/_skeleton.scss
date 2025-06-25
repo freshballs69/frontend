@@ -1,0 +1,31 @@
+@use '../../mixins';
+
+.post-card-skeleton {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    padding: 12px;
+
+    .post-title {
+        height: 30px;
+        width: 200px;
+        background: #e0e0e0;
+        animation: shimmer 1.5s infinite linear;
+        @include mixins.grad;
+    }
+
+    .post-body-line {
+        height: 20px;
+        width: 100%;
+        background: #e0e0e0;
+        animation: shimmer 1.5s infinite linear;
+        @include mixins.grad;
+
+        &.sm {
+            width: 30%;
+        }
+    }
+}
+

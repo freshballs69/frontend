@@ -1,0 +1,17 @@
+@use './utils.scss';
+@use './layouts/default';
+@use './components/post/form';
+@use './components/post/skeleton';
+@use './components/post/card';
+@use './components/image/skeleton' as imgskell;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+$font-stack: 'Inter', sans-serif;
+
+*{
+    font-family: $font-stack;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
